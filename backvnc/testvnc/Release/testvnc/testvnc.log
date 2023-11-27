@@ -1,0 +1,20 @@
+﻿Build started 16.03.2019 12:01:32.
+     1>Project "C:\Users\Андрей\Desktop\sell\backvnc\testvnc\testvnc\testvnc.vcxproj" on node 2 (Build target(s)).
+     1>PreBuildEvent:
+         C:\Users\Андрей\Desktop\sell\backvnc\testvnc\bin\bin2txt.exe C:\Users\Андрей\Desktop\sell\backvnc\testvnc\bin\vncdll32.dll vncdll32.h
+         C:\Users\Андрей\Desktop\sell\backvnc\testvnc\bin\bin2txt.exe C:\Users\Андрей\Desktop\sell\backvnc\testvnc\bin\vncdll64.dll vncdll64.h
+         :VCEnd
+         bin2txt: C:\Users\bin2txt: C:\Users\
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Андрей\Desktop\sell\backvnc\testvnc\\Inc" /Zi /nologo /W3 /WX- /O2 /Oi /Ot /Oy /D _EXE /D WIN32 /D NDEBUG /D _USING_V110_SDK71_ /Gm- /EHsc /MT /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Андрей\Desktop\sell\backvnc\testvnc\Release\testvnc\\" /Fd"C:\Users\Андрей\Desktop\sell\backvnc\testvnc\Release\testvnc\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt testvnc.c
+         testvnc.c
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Андрей\Desktop\sell\backvnc\testvnc\Release\testvnc.exe" /NOLOGO /LIBPATH:"C:\Users\Андрей\Desktop\sell\backvnc\testvnc\Release\\" /LIBPATH:"C:\Users\Андрей\Desktop\sell\backvnc\testvnc\inc" acdll.lib common.lib ntdll32.lib shlwapi.lib psapi.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB /MANIFEST:NO /PDB:"C:\Users\Андрей\Desktop\sell\backvnc\testvnc\Release\testvnc.pdb" /SUBSYSTEM:WINDOWS,"5.01" /OPT:REF /OPT:ICF /TLBID:1 /ENTRY:"main" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Андрей\Desktop\sell\backvnc\testvnc\Release\testvnc.lib" /MACHINE:X86 /SAFESEH:NO "C:\Users\Андрей\Desktop\sell\backvnc\testvnc\Release\testvnc\testvnc.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\testvnc\Release\acdll.lib"
+         "C:\Users\Андрей\Desktop\sell\backvnc\testvnc\Release\common.lib"
+         testvnc.vcxproj -> C:\Users\Андрей\Desktop\sell\backvnc\testvnc\Release\testvnc.exe
+     1>Done Building Project "C:\Users\Андрей\Desktop\sell\backvnc\testvnc\testvnc\testvnc.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:29.98

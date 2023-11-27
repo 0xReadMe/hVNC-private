@@ -1,0 +1,26 @@
+﻿Build started 16.03.2019 11:50:17.
+     1>Project "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\rfb\rfb.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Андрей\Desktop\sell\backvnc\backvnc\\" /I../inc /I../zlib /nologo /W3 /WX- /O1 /Os /Oy- /D WIN32 /D NDEBUG /D _LIB /D _USING_V110_SDK71_ /Gm- /EHsc /MT /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\rfb\\" /Fd"C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\rfb\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt hextile.c renc.c rfb.c translate.c zrle.c zrleoutstream.c zrlepalettehelper.c
+         hextile.c
+         renc.c
+         rfb.c
+         translate.c
+         zrle.c
+         zrleoutstream.c
+         zrlepalettehelper.c
+         Generating Code...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\rfb.lib" /NOLOGO /NODEFAULTLIB "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\rfb\hextile.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\rfb\renc.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\rfb\rfb.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\rfb\translate.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\rfb\zrle.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\rfb\zrleoutstream.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\rfb\zrlepalettehelper.obj"
+         rfb.vcxproj -> C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\rfb.lib
+     1>Done Building Project "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\rfb\rfb.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.96

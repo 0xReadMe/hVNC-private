@@ -1,0 +1,29 @@
+﻿Build started 22.02.2019 23:29:00.
+     1>Project "C:\Users\Андрей\Desktop\sell\backvnc\testvnc\common\Common.vcxproj" on node 3 (Build target(s)).
+     1>_MASM:
+         Assembling AMD64\x64stubs.s...
+       _MASM:
+         Assembling i386\w64stubs.asm...
+         cmd.exe /C "C:\Users\Андрей\AppData\Local\Temp\tmp927b485bba17410e8b3273bd6cb968e9.cmd"
+         ml.exe /c /nologo /Zi /Fo"C:\Users\Андрей\Desktop\sell\backvnc\testvnc\Release\common\w64stubs.obj" /W3 /errorReport:prompt  /Tai386\w64stubs.asm
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Андрей\Desktop\sell\backvnc\testvnc\\Inc" /Zi /nologo /W3 /WX- /O1 /Os /Oy- /D WIN32 /D NDEBUG /D _LIB /D _USING_V110_SDK71_ /Gm- /EHsc /MD /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Андрей\Desktop\sell\backvnc\testvnc\Release\common\\" /Fd"C:\Users\Андрей\Desktop\sell\backvnc\testvnc\Release\common\vc120.pdb" /Gd /TC /FIversion.h /analyze- /errorReport:prompt dllntfy.c globals.c hook.c pesup.c pssup.c
+         dllntfy.c
+         globals.c
+         hook.c
+         pesup.c
+         pssup.c
+         Generating Code...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Андрей\Desktop\sell\backvnc\testvnc\Release\common.lib" /NOLOGO /NODEFAULTLIB "C:\Users\Андрей\Desktop\sell\backvnc\testvnc\Release\common\dllntfy.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\testvnc\Release\common\globals.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\testvnc\Release\common\hook.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\testvnc\Release\common\pesup.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\testvnc\Release\common\pssup.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\testvnc\Release\common\w64stubs.obj"
+         Common.vcxproj -> C:\Users\Андрей\Desktop\sell\backvnc\testvnc\Release\common.lib
+     1>Done Building Project "C:\Users\Андрей\Desktop\sell\backvnc\testvnc\common\Common.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.87

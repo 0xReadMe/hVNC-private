@@ -1,0 +1,28 @@
+﻿Build started 16.03.2019 11:50:17.
+     1>Project "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\rt\rt.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../inc /nologo /W3 /WX- /O1 /Os /Oy- /D WIN32 /D NDEBUG /D _LIB /D _USING_V110_SDK71_ /Gm- /EHsc /MT /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\rt\\" /Fd"C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\rt\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt certinfo.c crc32.c file.c murmur.c osinfo.c reg.c str.c utils.c
+         certinfo.c
+         crc32.c
+         file.c
+         murmur.c
+         osinfo.c
+         reg.c
+         str.c
+         utils.c
+         Generating Code...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\rt.lib" crypt32.lib /NOLOGO /NODEFAULTLIB "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\rt\certinfo.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\rt\crc32.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\rt\file.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\rt\murmur.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\rt\osinfo.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\rt\reg.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\rt\str.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\rt\utils.obj"
+         rt.vcxproj -> C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\rt.lib
+     1>Done Building Project "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\rt\rt.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.80

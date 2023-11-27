@@ -1,0 +1,56 @@
+﻿Build started 16.03.2019 11:51:52.
+     1>Project "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\vncdll\vncdll.vcxproj" on node 2 (Build target(s)).
+     1>_MASM:
+         Assembling AMD64\x64stubs.s...
+         cmd.exe /C "C:\Users\Андрей\AppData\Local\Temp\tmp7bba2721911f4240976bedde9341e660.cmd"
+         ml64.exe /c /nologo /Zi /Fo"C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\x64\vncdll\x64stubs.obj" /W3 /errorReport:prompt  /TaAMD64\x64stubs.s
+       _MASM:
+         Assembling i386\w64stubs.asm...
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /I../inc /nologo /W3 /WX- /O1 /Os /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D CLIENT_EXPORTS /D _USING_V110_SDK71_ /D _WINDLL /Gm- /MT /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\x64\vncdll\\" /Fd"C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\x64\vncdll\vc120.pdb" /Gd /TC /errorReport:prompt activdll.c client.c dllntfy.c globals.c hook.c image.c launch.c lsasup.c pesup.c pssup.c shell.c sound.c stubs.c vnchook.c vncsrv.c vncwnd.c wndhook.c
+         activdll.c
+         client.c
+         dllntfy.c
+         globals.c
+         hook.c
+         image.c
+         launch.c
+         lsasup.c
+         pesup.c
+         pssup.c
+         shell.c
+         sound.c
+         stubs.c
+         vnchook.c
+         vncsrv.c
+         vncwnd.c
+         wndhook.c
+         Generating Code...
+       Link:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\x64\vncdll64.dll" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\x64\\" /LIBPATH:"C:\Users\Андрей\Desktop\sell\backvnc\backvnc\inc" libcmt.lib psapi.lib shlwapi.lib ntdll64.lib ws2_32.lib rt.lib zlib.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB /DEF:"client.def" /MANIFEST:NO /PDB:"C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\x64\vncdll64.pdb" /SUBSYSTEM:WINDOWS,"5.02" /TLBID:1 /ENTRY:"DllMain" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\x64\vncdll64.lib" /MACHINE:X64 /SAFESEH:NO /DLL "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\x64\vncdll\activdll.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\x64\vncdll\client.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\x64\vncdll\dllntfy.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\x64\vncdll\globals.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\x64\vncdll\hook.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\x64\vncdll\image.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\x64\vncdll\launch.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\x64\vncdll\lsasup.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\x64\vncdll\pesup.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\x64\vncdll\pssup.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\x64\vncdll\shell.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\x64\vncdll\sound.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\x64\vncdll\stubs.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\x64\vncdll\vnchook.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\x64\vncdll\vncsrv.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\x64\vncdll\vncwnd.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\x64\vncdll\wndhook.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\x64\rfb.lib"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\x64\vnc.lib"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\x64\vncdll\x64stubs.obj"
+            Creating library C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\x64\vncdll64.lib and object C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\x64\vncdll64.exp
+         vncdll.vcxproj -> C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\x64\vncdll64.dll
+     1>Done Building Project "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\vncdll\vncdll.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.49

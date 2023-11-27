@@ -1,0 +1,66 @@
+﻿Build started 16.03.2019 11:50:31.
+     1>Project "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\vnc\vnc.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../inc /I../zlib /nologo /W3 /WX- /O1 /Os /Oy- /D WIN32 /D NDEBUG /D _LIB /D _USING_V110_SDK71_ /Gm- /MT /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\vnc\\" /Fd"C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\vnc\vc120.pdb" /Gd /TC /analyze- /errorReport:prompt bmp.c browser.c chrome.c clipbd.c copy.c cpu.c desktop.c exec.c ff.c ie.c kbd.c layout.c minicom.c mouse.c mouse_xp.c names.c opera.c rgn.c scr.c shared.c start_menu.c system.c virtreg.c vnc.c wnd.c wnd_watcher.c
+         bmp.c
+         browser.c
+         chrome.c
+         clipbd.c
+         copy.c
+         cpu.c
+         desktop.c
+         exec.c
+         ff.c
+         ie.c
+         kbd.c
+         layout.c
+         minicom.c
+         mouse.c
+         mouse_xp.c
+         names.c
+         opera.c
+         rgn.c
+         scr.c
+         shared.c
+         Generating Code...
+         Compiling...
+         start_menu.c
+         system.c
+         virtreg.c
+         vnc.c
+         wnd.c
+         wnd_watcher.c
+         Generating Code...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\vnc.lib" /NOLOGO /NODEFAULTLIB /MACHINE:X86 "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\vnc\bmp.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\vnc\browser.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\vnc\chrome.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\vnc\clipbd.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\vnc\copy.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\vnc\cpu.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\vnc\desktop.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\vnc\exec.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\vnc\ff.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\vnc\ie.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\vnc\kbd.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\vnc\layout.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\vnc\minicom.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\vnc\mouse.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\vnc\mouse_xp.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\vnc\names.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\vnc\opera.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\vnc\rgn.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\vnc\scr.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\vnc\shared.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\vnc\start_menu.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\vnc\system.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\vnc\virtreg.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\vnc\vnc.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\vnc\wnd.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\vnc\wnd_watcher.obj"
+         vnc.vcxproj -> C:\Users\Андрей\Desktop\sell\backvnc\backvnc\Release\Win32\vnc.lib
+     1>Done Building Project "C:\Users\Андрей\Desktop\sell\backvnc\backvnc\vnc\vnc.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:18.95

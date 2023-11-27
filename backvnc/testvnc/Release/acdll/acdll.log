@@ -1,0 +1,18 @@
+﻿Build started 22.02.2019 23:29:00.
+     1>Project "C:\Users\Андрей\Desktop\sell\backvnc\testvnc\acdll\acdll.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Андрей\Desktop\sell\backvnc\testvnc\\inc" /Zi /nologo /W3 /WX- /O1 /Os /Oy- /D WIN32 /D NDEBUG /D _LIB /D _USING_V110_SDK71_ /Gm- /EHsc /MD /GS- /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Андрей\Desktop\sell\backvnc\testvnc\Release\acdll\\" /Fd"C:\Users\Андрей\Desktop\sell\backvnc\testvnc\Release\acdll\vc120.pdb" /Gd /TC /FI..\common\version.h /analyze- /errorReport:prompt activdll.c image.c stubs.c
+         activdll.c
+         image.c
+         stubs.c
+         Generating Code...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"C:\Users\Андрей\Desktop\sell\backvnc\testvnc\Release\acdll.lib" /NOLOGO /NODEFAULTLIB "C:\Users\Андрей\Desktop\sell\backvnc\testvnc\Release\acdll\activdll.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\testvnc\Release\acdll\image.obj"
+         "C:\Users\Андрей\Desktop\sell\backvnc\testvnc\Release\acdll\stubs.obj"
+         acdll.vcxproj -> C:\Users\Андрей\Desktop\sell\backvnc\testvnc\Release\acdll.lib
+     1>Done Building Project "C:\Users\Андрей\Desktop\sell\backvnc\testvnc\acdll\acdll.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.97
